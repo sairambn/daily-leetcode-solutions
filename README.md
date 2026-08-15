@@ -54,9 +54,9 @@ Every problem has its own folder named:
 
 ## 📋 Solved Problems
 
-| # | Title | Difficulty | Languages | Link |
-|---|-------|------------|-----------|------|
-| 3702 | Longest Subsequence With Non-Zero Bitwise XOR | Medium | 12 | [View](./3702-Longest-Subsequence-With-Non-Zero-Bitwise-XOR/) |
+| Date | # | Title | Difficulty | Languages | Link |
+|------|---|-------|------------|-----------|------|
+| 2026-08-15 | 3702 | Longest Subsequence With Non-Zero Bitwise XOR | Medium | 12 | [View](./3702-Longest-Subsequence-With-Non-Zero-Bitwise-XOR/) |
 
 > More problems coming every day ⏳
 
