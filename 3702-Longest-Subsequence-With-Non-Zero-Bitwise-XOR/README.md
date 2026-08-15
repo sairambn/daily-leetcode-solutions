@@ -38,26 +38,19 @@ This works because zeros do not change the XOR and the longest possible is eithe
 Time: O(n)  
 Space: O(1)
 
-## Code (Java)
+## Solutions
 
-```java
-class Solution {
-    public int longestSubsequence(int[] nums) {
-        int n = nums.length;
-        int xor = 0;
-        boolean hasNonZero = false;
-
-        for (int num : nums) {
-            xor ^= num;
-            if (num != 0) {
-                hasNonZero = true;
-            }
-        }
-
-        if (xor != 0) {
-            return n;
-        }
-        return hasNonZero ? n - 1 : 0;
-    }
-}
-```
+| Language | File |
+|----------|------|
+| Java | [Solution.java](./Solution.java) |
+| Python | [Solution.py](./Solution.py) |
+| C++ | [Solution.cpp](./Solution.cpp) |
+| JavaScript | [Solution.js](./Solution.js) |
+| TypeScript | [Solution.ts](./Solution.ts) |
+| Go | [Solution.go](./Solution.go) |
+| C# | [Solution.cs](./Solution.cs) |
+| Kotlin | [Solution.kt](./Solution.kt) |
+| Rust | [Solution.rs](./Solution.rs) |
+| Swift | [Solution.swift](./Solution.swift) |
+| PHP | [Solution.php](./Solution.php) |
+| Ruby | [Solution.rb](./Solution.rb) |
