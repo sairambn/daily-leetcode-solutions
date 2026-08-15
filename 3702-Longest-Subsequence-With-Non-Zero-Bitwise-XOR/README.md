@@ -1,6 +1,8 @@
 # 3702. Longest Subsequence With Non-Zero Bitwise XOR
 
-**Difficulty:** Medium
+**Date:** 2026-08-15  
+**Difficulty:** Medium  
+**Tags:** Array, Bit Manipulation, Math
 
 ## Problem
 
@@ -35,8 +37,8 @@ Compute the XOR of the entire array.
 
 This works because zeros do not change the XOR and the longest possible is either the whole array or the whole array minus one element.
 
-Time: O(n)  
-Space: O(1)
+**Time Complexity:** O(n)  
+**Space Complexity:** O(1)
 
 ## Solutions
 
